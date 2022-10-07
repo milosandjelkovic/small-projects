@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #e9e1de;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+main {
+  height: 100%;
+}
+
+.what-is-lorem-ipsum, .why-do-we-use-it {
+  padding: 2rem 1rem;
+}
+
+.what-is-lorem-ipsum {
+  background-color: #493e4a;
+  color: #d8cfd9;
+}
+
+.what-is-lorem-ipsum ::selection {
+  background-color: #f4b69d;
+  color: #493e4a;
+}
+
+.why-do-we-use-it {
+  background-color: #f4b69d;
+  color: #493e4a;
+}
+
+.why-do-we-use-it ::selection {
+  background-color: #493e4a;
+  color: #f4b69d;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+
+  body {
+    line-height: 1.7;
+  }
+
+  .what-is-lorem-ipsum, .why-do-we-use-it {
+    padding: 3rem 2rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .what-is-lorem-ipsum, .why-do-we-use-it {
+    padding: 4rem 3rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  main {
+    display: flex;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  body {
+    line-height: 1.6;
+  }
+
+  .what-is-lorem-ipsum, .why-do-we-use-it {
+    padding: 4.5rem 3.75rem;
+  }
+
+}
+
+@media (min-width: 1536px) {
+  html {
+    height: 100%;
+  }
+  body {
+    padding: 6rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .what-is-lorem-ipsum, .why-do-we-use-it {
+    padding: 8rem 6rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}
